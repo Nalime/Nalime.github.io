@@ -1,0 +1,28 @@
+* {
+    cursor: crosshair;
+}
+
+body {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    overflow: hidden;
+}
+
+canvas {
+    position: absolute;
+}
+
+#bottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#buttons {
+    width: 400px;
+    text-align: center;
+}
